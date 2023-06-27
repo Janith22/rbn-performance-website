@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('./variables.css');
+*{
+    box-sizing: border-box;
+    /* font-family: 'Bai Jamjuree', sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+}
+.container{
+    width: 1600px;
+}
+p{
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    font-feature-settings: 'kern' off;
+    /* text-align: justify; */
+    margin-bottom: 20px;
+}
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    /* text-align: center; */
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    font-feature-settings: 'kern' off;
+    margin-bottom: 20px;
+}
+h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* text-align: center; */
+    font-feature-settings: 'kern' off;
+}
+.btn-primary{
+    background-color: var(--rbn-black);
+    color: var(--rbn-white);
+    border-radius: 0px;
+    border: 0px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-style: italic;
+    width: 100%;
+}
+.attachment-text{
+    color: var(--rbn-black);
+    font-size: 16px;
+    font-family: Bai Jamjuree;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.attachment-icon{
+    width: 24px;
+    height: 24px;
+}
+.form-group{
+    display: inline-flex;
+    align-items: center;
+}
+.topic{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-feature-settings: 'kern' off;
+    margin-bottom: 40px;
+}
+.subtitle{
+    font-family: 'Bai Jamjuree';
+    font-style: italic;
+    margin-bottom: 60px;
+}
+.hero-about .container{
+    background-color: var(--rbn-green-yellow);
+    padding: 100px 10px;
+    margin-bottom: 100px;
+}
+.hero-about .hero-text-area{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.what-is .container{
+    padding: 0px 100px;
+    margin-bottom: 100px;
+}
+.what-is p{
+    text-align: justify;
+}
+.our-mission .content-box{
+    padding: 100px 10px;
+    background-color: var(--rbn-black);
+}
+.our-mission .mission{
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-feature-settings: 'kern' off;
+    color: var(--rbn-white);
+}
+.our-mission .container{
+    padding: 0px 100px;
+    margin-bottom: 100px;
+}
+.our-mission .text-area{
+    text-align: center;
+}
+.our-mission .text-area .subtitle{
+    margin-bottom: 40px;
+}
+.point-text{
+    font-family: 'Bai Jamjuree';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-feature-settings: 'kern' off;
+    margin-bottom: 40px;
+}
+.point-texta ::before{
+    display: block;
+    content: ' ';
+    /* background-image: url(../assets/icon/point-mark.svg); */
+    background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+    /* content: url(../assets/icon/point-mark.svg); */
+}
+.core-values .container{
+    padding: 0px 100px;
+    margin-bottom: 100px;
+}
+.point-text {
+    display: list-item;
+    list-style-image: url(../assets/icon/point-mark.svg);
+    padding-inline-start: 1ch;
+  }
+.core-values .col6-side{
+    padding: 0px 20px;
+}
+
+
+/* Contact us page  ----------------------------------------------------------------------------- */
+.contact-card-container{
+    background-color: var(--rbn-green-yellow);
+    padding: 80px 100px;
+    height: 662px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-card-container .contact-card{
+    display: block;
+}
+.contact-card-container .contact-detail{
+    text-align: left;
+}
+.contact-topic{
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact-detail .detail{
+    color: var(--rbn-black);
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form-control{
+    border-radius: 0px;
+}
+.form-floating textarea{
+    resize: none;
+    height: 165px !important;
+    /* max-height: 165px;
+    min-height: 165px; */
+}
+
+#contact-form .nav-item .nav-link{
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+    color: var(--rbn-black);
+    opacity: 0.5;
+    border-bottom: 1px solid var(--rbn-black);
+    height: 100%;
+    width: 100%;
+}
+#contact-form .nav-item{
+    /* width: 100%; */
+}
+#contact-form .nav-item .active{
+    opacity: 1;
+    border-bottom: 2px solid var(--rbn-black);
+}
+.link-text{
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.location-card{
+    margin-bottom: 60px;
+}
+.location-text{
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.location-city{
+    color: var(--rbn-black);
+}
+.location-place{
+    color: var(--rbn-gray);
+}
+.search-input{
+    border-radius: 0px;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    line-height: 24px;
+}
+.search-field{
+    border: 1px solid var(--rbn-gray);
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: max-content;
+    opacity: 0.6;
+}
+.where-located .left-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.search-field .search-icon{
+    width: 24px;
+
+}
+.form-section{
+    margin-bottom: 100px;
+}
+.gray-line{
+    border-bottom: 1px solid var(--rbn-gray);
+    width: 100%;
+    position: relative;
+    top: -20px;
+    z-index: -1;
+}
+.loadmore-btn{
+    z-index: 1;
+    background-color: var(--rbn-white);
+    color: var(--rbn-gray);
+    text-align: center;
+    font-size: 16px;
+    font-family: Bai Jamjuree;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.loadmore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.where-located{
+    margin-bottom: 100px;
+}

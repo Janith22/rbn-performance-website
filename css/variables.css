@@ -1,0 +1,49 @@
+:root {
+    --rbn-black: #000;
+    --rbn-white: #fff;
+    --rbn-ghost-white: #f9f9f9;
+    --rbn-cultured: #f5f5f5;
+    --rbn-gray: #7f7f7f;
+    --rbn-green-yellow: #def755;
+    --rbn-red: #f92525;
+    --rbn-base-font-weight: 500;
+    --orbitron-font: "Orbitron", sans-serif;
+    --bai-jamjuree-font: "Bai Jamjuree", sans-serif;
+  }
+
+  /*Color classes*/
+  .rbn-black {
+    color: var(--rbn-black);
+    --current-color: #000;
+    --current-color-rgb: rgb(0, 0, 0);
+  }
+  .rbn-white {
+    color: var(--rbn-white);
+    --current-color: #fff;
+    --current-color-rgb: rgb(255, 255, 255);
+  }
+  .rbn-gray {
+    color: var(--rbn-gray);
+    --current-color: #7f7f7f;
+    --current-color-rgb: rgb(127, 127, 127);
+  }
+  .rbn-green-yellow {
+    color: var(--rbn-green-yellow);
+    --current-color: #def755;
+    --current-color-rgb: rgb(222, 247, 85);
+  }
+  .rbn-red {
+    color: var(--rbn-red);
+    --current-color: #f92525;
+    --current-color-rgb: rgb(249, 37, 37);
+  }
+  .rbn-cultured {
+    color: var(--rbn-cultured);
+    --current-color: #f5f5f5;
+    --current-color-rgb: rgb(245, 245, 245);
+  }
+  .rbn-ghost-white {
+    color: var(--rbn-ghost-white);
+    --current-color: #f9f9f9;
+    --current-color-rgb: rgb(249, 249, 249);
+  }
